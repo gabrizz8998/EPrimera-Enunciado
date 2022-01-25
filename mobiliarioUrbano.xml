@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mobiliario>
+<elemento>
+    <id>1</id>
+    <descripcion>Farola Darola 24</descripcion>
+    <latitud>41.67087166806011</latitud>
+    <longitud>-3.6769533013330147</longitud>
+    <imagen>https://www.informaticasc2.com/gmu/farola.jpg</imagen>
+    <fechaMantenimiento>20211211</fechaMantenimiento>
+    <familia>Servicios</familia>     
+</elemento> 
+<elemento>
+    <id>2</id>
+    <descripcion>Plaza Lopez Robero</descripcion>
+    <latitud>41.67077768357397</latitud>
+    <longitud>-3.6779139818690965</longitud>
+    <imagen>https://www.informaticasc2.com/gmu/plaza.jpg</imagen>
+    <fechaMantenimiento>20220115</fechaMantenimiento>
+    <familia>Infraestrucuturas</familia>     
+</elemento> 
+<elemento>
+    <id>3</id>
+    <descripcion>Papelera modelo Canasta</descripcion>
+    <latitud>41.67052086444117</latitud>
+    <longitud>-3.679426747753496</longitud>
+    <imagen>https://www.informaticasc2.com/gmu/papelera.jpg</imagen>
+    <fechaMantenimiento>20220115</fechaMantenimiento>
+    <familia>Servicios</familia>     
+</elemento> 
+<elemento>
+    <id>4</id>
+    <descripcion>Jardín Exótico</descripcion>
+    <latitud>41.67124906228226</latitud>
+    <longitud>-3.679196077778215</longitud>
+    <imagen>https://www.informaticasc2.com/gmu/jardin.jpg</imagen>
+    <fechaMantenimiento>20211211</fechaMantenimiento>
+    <familia>Infraestrucuturas</familia>     
+</elemento> 
+<elemento>
+    <id>5</id>
+    <descripcion>Fuente las Acacias</descripcion>
+    <latitud>41.671313539774864</latitud>
+    <longitud>-3.6784396948360154</longitud>
+    <imagen>https://www.informaticasc2.com/gmu/fuente.jpg</imagen>
+    <fechaMantenimiento>20220115</fechaMantenimiento>
+    <familia>Infraestrucuturas</familia>     
+</elemento> 
+<elemento>
+    <id>6</id>
+    <descripcion>Casa Cultural Ayuntamiento</descripcion>
+    <latitud>41.671432670094696</latitud>
+    <longitud>-3.6775965439301217</longitud>
+    <imagen>https://www.informaticasc2.com/gmu/casa.png</imagen>
+    <fechaMantenimiento>20211115</fechaMantenimiento>
+    <familia>Cultura</familia>     
+</elemento> 
+<elemento>
+    <id>7</id>
+    <descripcion>Banco paseo</descripcion>
+    <latitud>41.67156889859186</latitud>
+    <longitud>-3.6776823746185983</longitud>
+    <imagen>https://www.informaticasc2.com/gmu/banco.jpg</imagen>
+    <fechaMantenimiento>20211211</fechaMantenimiento>
+    <familia>Servicios</familia>     
+</elemento> 
+</mobiliario>

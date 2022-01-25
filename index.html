@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Formación Profesional</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- MATERIAL DESINg-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+    <link rel="stylesheet" href="./css/estilo.css">
+    <style>
+          </style>
+</head>
+
+
+<body>
+    <main>
+
+
+
+        <form>
+            <header class="cabecera">
+                <picture style="margin: 10px;">
+                    <source media="(min-width: 500px)" srcset="imagenes/Logo.png">
+                    <img id="imagenTitulo" src="imagenes/Logop.png" alt="Logo CIFP">
+                </picture>
+                <h1 id="titulo"> Mobiliario Urbano</h1>
+
+            </header>
+
+            
+            <article class="menu">
+                <ul>
+                    <li>Buscar Familia   
+                        <select id="FamiliaSeleccionada"> 
+                            <option value="">Seleccione Familia</option>  
+                            <option value="Servicios">Servicios</option>
+                            <option value="Infraestrucuturas">Infraestrucuturas</option>  
+                            <option value="Cultura">Cultura</option>  
+                        </select>
+                    </li>
+                    <li>
+                        <b>Desde Fecha:</b><input type="date" id="fechaDesde" />
+                    </li>
+                    <li><b>Hasta:</b><input type="date" id="fechaHasta" />
+                    </li>
+                    <li>    
+                    <input type="file" name="files" id="files" >
+                    <label for="files">
+                    <!--   <span class="material-icons"> post_add
+                        </span>-->
+                        <img class="imagenFichero" src="imagenes/lupa.jpg"></input> 
+                    </label>
+                    </li>
+                </ul>
+
+
+            </article>
+
+
+            <article aria-label="Datos negocio" class="datosdelejercicio">
+                <header>
+                    <h3>
+                        Datos Elemento Urbano
+                    </h3>
+                </header>
+                <fieldset>
+                    
+                    <p>
+                        <label>Id </label> <input type="text" id="cId" >
+                    
+                        <label>Descripción </label> <input type="text" id="cDescripcion"   >
+                   
+                        <label>Latitud </label> <input type="email" id="cLatitud"  >
+                   
+                        <label>Longitud</label> <input type="text" id="cLongitud">
+                    </p>
+                    <p>
+                        <label>Url Imagen</label> <input type="text" id="cImagen" >
+                    
+                        <label>Fecha Mantenimiento</label> <input type="text" id="cFechaMantenimiento" >
+                       
+                     
+                        <label>Familia</label> <input type="text" id="cFamilia" >
+                       
+                    </p>
+                    
+                </fieldset>
+                 
+            </article>
+ 
+
+            <article class="cajamapa">
+                <header>
+                    <h3>
+                        Mapa
+                    </h3>
+                </header>
+                <div style="position: relative; left: 0px; width:100%; top:  10px; height: 380px;z-index: 2"
+                    class="map_canvas" id="map_canvas">
+                </div>
+            </article>
+
+
+            <article class="tablaRegistros">
+                <!-- Enlace de la opción de menú Listado Negocios-->
+                <a name="primera_seccion"></a>
+
+                <h3> Listado Elementos </h3>
+                <table id="tabla">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Descripcion</th>
+                            <th scope="col">F. Mantmito.</th>
+                            <th scope="col">Familia</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cuerpo">
+                        <tr>
+                            <!--<td data-label="ID">Visa - 3412</td>
+						<td data-label="Nombre">04/01/2016</td>
+						<td data-label="Email">$1,190</td>
+						<td data-label="Tipo">03/01/2016 - 03/31/2016</td>
+					  </tr>-->
+                    </tbody>
+                </table>
+
+
+
+            </article>
+
+
+            <footer class="pie">
+
+                Desarrollo de Aplicaciones Web(<cite>DAW</cite>) &copy; CIFP Santa Catalina
+            </footer>
+
+        </form>
+
+    </main>
+
+</body>
+<script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeNRBEIWYeWRRvY8On_9pkSD1_J_zLykQ&libraries=geometry">
+
+    </script>
+    <script src="./js/funciones.js"></script>
+<script src="./js/datos.js"></script>
+ <script src="./js/funcionesMapa.js"></script> 
+ 
+
+</html>
